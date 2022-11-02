@@ -1,0 +1,1 @@
+This site was developed by Dima Kondratevich.Developed width Figma drafts: https://www.figma.com/file/6KkK0rAdFvK9p6EzTp52SV/Uber-Eats-(Copy)?node-id=0%3A1

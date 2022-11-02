@@ -1,0 +1,279 @@
+/*Бордер бокс для всего*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/*Щрифты для всего*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: "regular";
+    padding-top: 72px;
+    /*отступ для шапки*/
+}
+
+.wrapper {
+    max-width: 1132px;
+    margin: 0 auto;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    height: 72px;
+    background-color: white;
+    box-shadow: 0 4px 4px #dfdfdf;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.head_content {
+    padding-right: 4px;
+    padding-left: 4px;
+    width: 1132px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header_logo img {
+
+    width: 119.23px;
+    height: 12.31px;
+}
+
+.basket img {
+    width: 18.95px;
+    height: 21.74px;
+    transition: 0.3s;
+}
+
+.basket img:hover {
+    transform: scale(1.03);
+}
+
+.log_in {
+    margin-right: 27px;
+}
+
+.button {
+    border-style: solid;
+    border-color: #E0E0E0;
+    color: #1D1D1D;
+    height: 40px;
+    width: 78px;
+    background-color: transparent;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+/*
+picture>img {
+    width: 100%;
+    transition: 0.3s;
+    width: 100%;
+}
+picture>img:hover {
+    transform: scale(1.03);
+  }*/
+.search {
+    font-size: 16px;
+    background-color: transparent;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: 1px solid;
+    margin-top: 56px;
+    margin-bottom: 56px;
+
+}
+
+.head_text {
+    margin-bottom: 16px;
+}
+
+.card {
+    margin-bottom: 16px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+picture>img {
+    width: 100%;
+    transition: 0.3s;
+    width: 100%;
+}
+.card{transition: 0.3s;
+    width: 100%;}
+
+    .card:hover {
+    transform: scale(1.03);
+}
+.unit-info{font-weight: 14px;
+color:#626262 ;}
+.unit-time{font-weight: 13px;}
+@media all and (max-width:992px) {
+    .row {
+        margin-bottom: 32px;
+    }
+}
+
+@media all and (min-width:993px) {
+    .row {
+        margin-bottom: 64px;
+    }
+}
+
+footer {
+    min-height: 552px;
+    background-color: #262626;
+    color: white;
+}
+
+.footer_logo_block {
+    width: 100%;
+    height: 116px;
+    border-bottom: 1px solid #979797;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_content_block {
+    min-height: 220px;
+    border-bottom: 1px solid #979797;
+
+}
+
+.box {
+    padding-top: 32px;
+    max-width: 648px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.lang-selector-container {
+    height: 40px;
+    width: 227px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3B3B3B;
+}
+
+.lang-selector-container>img {
+    width: fit-content;
+    height: fit-content;
+}
+
+select {
+    height: 40px;
+    width: 147px;
+    border: none;
+    color: white;
+    appearance: none;
+    background-color: #3B3B3B;
+}
+
+.left_column {
+    height: 220px;
+    color: white;
+    display: grid;
+    align-items: stretch;
+
+}
+
+.Green {
+    color: green;
+}
+
+.footer a {
+    color: white;
+}
+
+.stores_block {
+    min-height: 120px;
+    border-bottom: 1px solid #979797;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.list1>a{
+    font-size: 13px;
+    text-decoration: none;
+    
+}
+.list2>a{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+
+.stores_block img {
+    padding-right: 3.5%;
+}
+
+.link_block {
+    min-height: 94px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 11px;
+}
+
+.buttonup {
+    height: 80px;
+    width: 80px;
+    background-color: #59BD5A;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 16px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.buttonup:hover {
+    transform: scale(1.03);
+}
+
+#olo {
+    position: absolute;
+    top: 0;
+}
